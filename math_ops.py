@@ -7,6 +7,12 @@ def divide_numbers(a, b):
     else: 
         return a / b  # Potential division by zero error
 
+def multiply_numbers(a,b):
+    """
+    Multiplies two numbers 
+    """
+    return a * b 
+
 if __name__ == "__main__":
     x = 10
     y = 0
